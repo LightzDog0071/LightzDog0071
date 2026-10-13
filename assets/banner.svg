@@ -1,0 +1,115 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-label="WinMC - Lightz_Dog">
+  <title>WinMC - Lightz_Dog</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b0f1a"/>
+      <stop offset="0.55" stop-color="#151a2e"/>
+      <stop offset="1" stop-color="#1f1235"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffe680"/>
+      <stop offset="0.5" stop-color="#ffb627"/>
+      <stop offset="1" stop-color="#e07a10"/>
+    </linearGradient>
+    <linearGradient id="shine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#ffffff" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#ffffff" stroke-opacity="0.04" stroke-width="1"/>
+    </pattern>
+    <clipPath id="title-clip">
+      <text x="600" y="168" text-anchor="middle" font-family="Segoe UI, Verdana, Arial, sans-serif" font-size="112" font-weight="900" letter-spacing="6">WinMC</text>
+    </clipPath>
+    <style>
+      .float { animation: float 6s ease-in-out infinite; }
+      .float.b { animation-duration: 7.5s; animation-delay: -2s; }
+      .float.c { animation-duration: 5.5s; animation-delay: -4s; }
+      .twinkle { animation: twinkle 3s ease-in-out infinite; }
+      .twinkle.b { animation-delay: -1s; }
+      .twinkle.c { animation-delay: -2s; }
+      .sweep { animation: sweep 4.5s ease-in-out infinite; }
+      @keyframes float { 0%,100% { transform: translateY(0) } 50% { transform: translateY(-14px) } }
+      @keyframes twinkle { 0%,100% { opacity: .25 } 50% { opacity: 1 } }
+      @keyframes sweep { 0% { transform: translateX(-700px) } 60%,100% { transform: translateX(700px) } }
+    </style>
+  </defs>
+
+  <rect width="1200" height="320" rx="22" fill="url(#bg)"/>
+  <rect width="1200" height="320" rx="22" fill="url(#grid)"/>
+
+  <!-- estrelas -->
+  <g fill="#ffffff">
+    <rect class="twinkle" x="140" y="48" width="4" height="4"/>
+    <rect class="twinkle b" x="320" y="92" width="3" height="3"/>
+    <rect class="twinkle c" x="880" y="56" width="4" height="4"/>
+    <rect class="twinkle" x="1010" y="110" width="3" height="3"/>
+    <rect class="twinkle b" x="470" y="40" width="3" height="3"/>
+    <rect class="twinkle c" x="700" y="292" width="3" height="3"/>
+    <rect class="twinkle" x="230" y="262" width="3" height="3"/>
+    <rect class="twinkle b" x="1110" y="232" width="4" height="4"/>
+  </g>
+
+  <!-- bloco de grama (esquerda) -->
+  <g class="float" transform-origin="150 190">
+    <g transform="translate(92 140)">
+      <rect width="96" height="96" fill="#7a5230"/>
+      <rect width="96" height="28" fill="#5fb43c"/>
+      <rect y="28" width="12" height="10" fill="#5fb43c"/>
+      <rect x="36" y="28" width="12" height="14" fill="#5fb43c"/>
+      <rect x="72" y="28" width="12" height="8" fill="#5fb43c"/>
+      <rect x="18" y="52" width="12" height="12" fill="#6a4628"/>
+      <rect x="60" y="66" width="12" height="12" fill="#8c6038"/>
+      <rect x="30" y="80" width="12" height="10" fill="#6a4628"/>
+      <rect width="96" height="96" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="3"/>
+    </g>
+  </g>
+
+  <!-- diamante (direita) -->
+  <g class="float b" transform-origin="1050 170">
+    <g transform="translate(1004 122)">
+      <polygon points="46,0 92,34 46,92 0,34" fill="#3fd8e6"/>
+      <polygon points="46,0 92,34 46,34" fill="#9ef3ff"/>
+      <polygon points="0,34 46,34 46,92" fill="#1fa9bd"/>
+      <polygon points="46,0 92,34 46,92 0,34" fill="none" stroke="#0b3a44" stroke-width="3"/>
+    </g>
+  </g>
+
+  <!-- espada (direita alta) -->
+  <g class="float c" transform-origin="930 90">
+    <g transform="translate(905 60) rotate(45 25 25)" fill="#d8dde6">
+      <rect x="20" y="-6" width="10" height="44" fill="#e9eef6"/>
+      <rect x="10" y="38" width="30" height="8" fill="#8a5a2b"/>
+      <rect x="21" y="46" width="8" height="16" fill="#5e3b1a"/>
+    </g>
+  </g>
+
+  <!-- picareta (esquerda alta) -->
+  <g class="float c" transform-origin="270 80">
+    <g transform="translate(240 50)">
+      <rect x="0" y="0" width="60" height="10" fill="#9ef3ff"/>
+      <rect x="0" y="10" width="10" height="10" fill="#9ef3ff"/>
+      <rect x="50" y="10" width="10" height="10" fill="#9ef3ff"/>
+      <rect x="25" y="10" width="10" height="46" fill="#8a5a2b"/>
+    </g>
+  </g>
+
+  <!-- titulo -->
+  <g>
+    <text x="606" y="174" text-anchor="middle" font-family="Segoe UI, Verdana, Arial, sans-serif" font-size="112" font-weight="900" letter-spacing="6" fill="#000" fill-opacity=".45">WinMC</text>
+    <text x="600" y="168" text-anchor="middle" font-family="Segoe UI, Verdana, Arial, sans-serif" font-size="112" font-weight="900" letter-spacing="6" fill="url(#gold)">WinMC</text>
+    <g clip-path="url(#title-clip)">
+      <rect class="sweep" x="300" y="60" width="140" height="140" fill="url(#shine)" transform="skewX(-20)"/>
+    </g>
+  </g>
+
+  <text x="600" y="218" text-anchor="middle" font-family="Segoe UI, Verdana, Arial, sans-serif" font-size="24" font-weight="600" fill="#e8e6f0">
+    Lightz_Dog  ·  plugins, forks e infraestrutura da rede
+  </text>
+  <text x="600" y="256" text-anchor="middle" font-family="Consolas, Menlo, monospace" font-size="17" fill="#9aa4bf">
+    Paper · Folia · Leaf · Velocity · Geyser · Java 21
+  </text>
+
+  <rect x="0" y="312" width="1200" height="8" rx="4" fill="#5fb43c" opacity=".85"/>
+</svg>
