@@ -117,7 +117,6 @@ até economia, clãs, eventos e otimização pra aguentar muita gente em PvP.
 
 <img src="https://streak-stats.demolab.com?user=LightzDog0071&theme=tokyonight&hide_border=true&locale=pt_BR" alt="Sequência de contribuições" height="170"/>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=LightzDog0071&theme=tokyo-night&hide_border=true&area=true&custom_title=Contribui%C3%A7%C3%B5es%20nos%20%C3%BAltimos%2030%20dias" alt="Gráfico de atividade" width="100%"/>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/LightzDog0071/LightzDog0071/output/snake-dark.svg"/>
