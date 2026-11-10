@@ -6,6 +6,6 @@
 <br/>
 <img src="https://komarev.com/ghpvc/?username=LightzDog0071&style=for-the-badge&color=5fb43c&label=visitas" alt="visitas"/>
 
-<sub>⛏️ Trabalho com Paper, Folia e muito café</sub>
+<sub>⛏️ Trabalho com Paper, Folia e muito café proplayer de claude ksksksksk</sub>
 
 </div>
